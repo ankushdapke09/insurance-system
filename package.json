@@ -1,0 +1,32 @@
+{
+  "name": "nextgen-insurance-system",
+  "version": "1.0.0",
+  "description": "NextGen Insurance Policy Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node cluster.js",
+    "start:single": "node index.js",
+    "dev": "nodemon cluster.js",
+    "dev:single": "nodemon index.js",
+    "test": "jest",
+    "create-indexes": "node scripts/createIndexes.js"
+  },
+  "dependencies": {
+    "mongoose": "^7.0.0",
+    "mongodb": "^5.0.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5",
+    "csv-parser": "^3.0.0",
+    "node-cron": "^3.0.2",
+    "helmet": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^6.8.1",
+    "compression": "^1.7.4",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
