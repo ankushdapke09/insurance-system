@@ -1,4 +1,4 @@
-git clone <repository-url>
+git clone https://github.com/ankushdapke09/insurance-system.git
 cd insurance-system
 npm install
 
